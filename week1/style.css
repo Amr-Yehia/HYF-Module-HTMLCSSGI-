@@ -1,0 +1,54 @@
+body{
+    background-color: lightblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box{
+    margin: 5px;
+    border-top: 2px solid gray;
+}
+
+/* the main container */
+.container{
+    margin: 0 auto;
+    max-width: 75%;
+    height: 100%;
+    display: flex;
+}
+/* left blue elemant */
+.text-left{
+    min-width: 25% ;
+    background-color: #013048;
+    color: whitesmoke;
+    
+    
+}
+.left{
+    padding: 40px;
+}
+img{
+    border-radius: 60%;
+}
+.photo{
+    padding-bottom: 20px;
+}
+
+/* right wight elemant */
+
+h1,.right h2{
+    color: #013048;
+}
+h2{
+    color: gray;
+}
+.text-right{
+    min-width: 75%;
+    background-color: whitesmoke;
+    height: 100%;
+    
+
+}
+.right{
+    padding: 40px;
+    color: rgb(61, 60, 60);
+}
+
