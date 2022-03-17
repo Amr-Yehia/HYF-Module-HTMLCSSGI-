@@ -1,0 +1,15 @@
+How do I create a hidden file or folder? How do I display it in the CLI?
+1. when you use . before the file name or directory it will make it hidden.
+
+2. use ls -a to show the list includs the hidden files and directory. 
+
+How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
+use (mkdir -p "the name of the folder and /between each folder nam")
+"-p" to put the folders inside eachothers
+
+How do I append a message to a file, without a newline character?
+When you add the -n flag to echo it does not add a new line.
+echo -n 'First part of line' > myfile.txt echo ' Second part of line' >> myfile.txt
+Notice the > in the first and the >> in the second.
+> replaces the current contents of the file
+>> adds to the end of the contents of the file.
