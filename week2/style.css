@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* Header */
+header a img{
+    width: 11vh;
+}
+header nav{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100vw;
+}
+header{
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: space-between;
+    padding: 1.5vh 10vh;
+    max-width: 100vw;
+}
+i{
+    color: rgb(255 255 255);
+    width: 2vh;
+    padding-right: 2vh;
+}
+#signup{
+    color: black;
+    background-color: rgb(255 255 255);
+}
+header nav button{
+    cursor: pointer;
+    background-color: black;
+    color: rgb(255 255 255);
+    
+    border-radius: 3em;
+    padding: 2vh;
+    font-weight: bolder;
+}
+button:hover{background-color: rgb(51, 51, 51);}
+
+/* main */
+
+/* first main section */
+.section-main{
+    max-width: 100vw;
+    display: flex;
+    top: 0;
+    width: 100%;
+    min-height: 90vh;
+    background: url(main.webp) no-repeat;
+}
+.section-main-top{
+    position: relative;
+    left: 6vh;
+    top: 4vh;
+    flex-flow: column wrap-reverse;
+    display: flex;
+}
+.container{
+    background-color: rgb(255 255 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 73vh;
+    max-height: 30em;
+    padding: 7vh;
+    max-width: 54vw;
+    
+}
+
+.main-icon-text{
+    grid-column: 1/4;
+}
+.container .main-icon-text button{
+    background-color: black;
+    color: rgb(255 255 255);
+    margin-top: 5vh;
+    
+}
+.main-icon-text h1{
+    font-size: 6vh;
+    padding: 1em 0;
+}
+.container button{
+    background-color: rgb(255 255 255);
+    color: black;
+    border: 1px solid white;
+    gap: 3em;
+}
+#button-shadow{
+    box-shadow: 0 4px black;
+}
+.container button i{
+    color: black;
+    font-size: 2em;
+}
+
+/* second main section */
+
+.uber-for-business{
+    margin-top: 0;
+    max-width: 100vw;
+    background: url(uber-for-business.jpg) no-repeat;
+}
+.uber-for-business-container{
+    max-width: 100vw;
+}
+
+.uber-for-business-item{
+    padding: 2vh;
+    margin: 0 4vh ;
+}
+
+/* third main section */
+
+
+h1{
+    padding: 1em;
+    font-size: 2.5em;
+}
+.main-third{
+    display: grid;
+    grid-template-rows: repeat(auto-fill, minmax(300px,1fr));
+    margin: 4vh;
+    gap: 2em;
+}
+.third-child{
+    grid-row: 1;
+}
+@media (min-width:700px) {
+    .grid-item:first-of-type{
+        grid-column: 1 / 3;
+    }
+}
+
+.main-third .third-child img{
+    max-width: 100%;
+}
+
+
+/* footer */
+footer{
+    display: grid;
+    max-width: 100wh;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    background-color: black;
+    color: rgb(255 255 255);
+    padding: 1.5vh 10vh;
+    gap: 6vh;
+    padding-top: 17vh;
+    padding-bottom: 15vh;
+}
+
+footer div{
+    min-width: 4vh;
+}
+
+.footer-icon{
+    display: flex;
+    grid-column: 1/5;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.store img{
+    max-width: 17vh;
+    min-width: auto;
+}
+.social{
+    grid-column: 1/2;
+}
+.store{
+    justify-self: end;
+    grid-column: 4/5;  
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    color: #999595;
+}
+
+p a {
+    color: rgb(255 255 255);
+  }
+button{
+    cursor: pointer;
+    background-color: black;
+    color: rgb(255 255 255);
+    border: 1px solid black;
+    padding: 2vh;
+    font-weight: bolder;
+}
+h3{
+    padding-bottom: 3vh;
+}
